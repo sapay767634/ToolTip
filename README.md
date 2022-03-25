@@ -1,0 +1,2 @@
+# ToolTip
+MsgBox("", $sBool, "Bool has been updated to " &amp; $sBool &amp; ". Met condition needed and left sleep function") ToolTip("$iInt = " &amp; $iInt, 0, 0) SleepUntil("$iInt > 0", 100) MsgBox("", $iInt, "Int has been updated to " &amp; $iInt &amp; ". Met condition needed and left sleep function") ToolTip("$dDouble = " &amp; $dDouble, 0, 0) SleepUntil("$dDouble = 99.99", 100) MsgBox("", $dDouble,
